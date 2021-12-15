@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>position</title>
+    <style>
+        * {margin:0px; padding:0px;}
+        #container {position: relative; top: 100px; left:100px;
+            background-color: red;
+            border-radius: 100px;
+        width:200px; height:200px;}
+        #boxA {border-radius:100px 0px 0px 0px;
+            background-color: green;
+        width:100px; height:100px;}
+        #boxB {position:relative; top:0px; left:100px;
+            background-color: blue;
+            border-radius: 0px 0px 100px 0px;
+        width:100px;height:100px;}
+    </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="boxA"></div>
+            <div id="boxB"></div>
+        </div>
+    </body>
+</html>
